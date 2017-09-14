@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+  <title>Gameroom SDK Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/vendor/jquery-ui.css">
+  <title>Gameroom HTML SDK Development</title>
+	<script src="./js/vendor/jquery.min.js"></script>
+	<script src="./js/core.js"></script>
+</head>
+  <h1 class="title">Gameroom HTML SDK Test Page</h1>
+  <p class="description">Here's a short list of commands you can invoke to interact with the Gameroom SDK.</p>
+  <div class="options-container">
+
+    <ul class="list">
+        <li>
+            <p class="detail-description">Sending over a message with the SDK and receive the message back from the SDK. An alert is displayed by default for now.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="postMessageButton" >Alert Message</button>
+        </li>
+        <li>
+            <p class="detail-description">Switch the video layout to the default HUD template.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="defaultLayout" >Default Layout</button>
+        </li>
+        <li>
+            <p class="detail-description">Switch to the fill layout where the video feeds will take up as much space in the most optimial way.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="fillLayout" >Fill Layout</button>
+        </li>
+
+        <li>
+            <p class="detail-description">Region support to put the video in the top half of the screen.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="topHalfscreenLayout" >Top Half</button>
+        </li>
+        <li>
+            <p class="detail-description">Region support to put the video in the bottom half of the screen.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="bottomHalfscreenLayout" >Bottom Half</button>
+        </li>
+        <li>
+            <p class="detail-description">This allows the javascript to define the layout, customizing the video feed placement however the developer see fit. This is using the relative layout schema.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="customLayoutSchemeRelative" >Custom Layout Relative</button>
+        </li>
+        <li>
+            <p class="detail-description">This allows the javascript to define the layout, customizing the video feed placement however the developer see fit. This is using the absolute layout schema.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="customLayoutSchemeAbsolute" >Custom Layout Absolute</button>
+        </li>
+        <li>
+            <p class="detail-description">SDK supports simple blank view and text view injectiongs on top of the video feed. This one injects 3 views: green bar, red bar, and a text view.</p>
+            <button class="ui-button ui-widget ui-corner-all" id="updateoverlay" >Inject Overaly on Video Feed</button>
+        </li>
+                     
+    </ul>
+  </div>
+</body>
+</html>
