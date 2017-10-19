@@ -29,7 +29,7 @@ i.e. flappylives://room/123/userId/12345/username/awesomej
 ## 3. Game image.
 Our standard game image size is around 1000x500.
 
-## 4. Game catelog list:
+## 4. Game catalog list:
 We will add the game entry in the following format. Subtitle works best between 50-80 characters.
 ```
 {
