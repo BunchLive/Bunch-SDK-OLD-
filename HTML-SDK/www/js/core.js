@@ -53,7 +53,7 @@ $(function() {
     // Sending over the order of the layout
     let textoverlay = {
       type:"text",
-      value:"Gameroom",
+      value:"Bunch",
       style:{
         fontFamily: "System",
         fontSize: 30,
