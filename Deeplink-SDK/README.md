@@ -10,6 +10,8 @@ Please provide the deeplink scheme your application is registered to
 
 i.e. flappylives://
 
+More info on deeplink URL schemes: https://developer.apple.com/documentation/uikit/core_app/communicating_with_other_apps_using_custom_urls
+
 ## 2.URL Scheme supported params
 Please provide desired deeplink output coming from us.
 
@@ -53,7 +55,7 @@ Please provide the value for each of these fields:
 | minPlayer       | yes      |                                                                                  |
 | maxPlayer       | yes      |                                                                                  |
 | subtitle        | yes      | Game description, no restriction on length.                                      |
-| shorterSubtitle | yes      | Game description, used in game feature carousel where characters are limited     |
+| shorterSubtitle | yes      | Game description, used in game feature carousel where characters are limited (80 characters)     |
 | shareText       | no       | Customized share copy that can be used when inviting another friend to the game. |
 | instructionText | no       | Instructional text placed in the game lobby screen before players start game.    |
 
