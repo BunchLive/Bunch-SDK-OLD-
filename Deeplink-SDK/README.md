@@ -43,11 +43,12 @@ Please provide the assets as specified here:
 <br />
 
 ## 4. Game catalog copy:
-Please provide the copies for each of these fields:
+Please provide the value for each of these fields:
 
 | Field           | Required | Description                                                                      |
 |-----------------|----------|----------------------------------------------------------------------------------|
 | key             | yes      | unique game key                                                                  |
+| appId           | yes      | AppStore app ID                                                                  |
 | title           | yes      |                                                                                  |
 | minPlayer       | yes      |                                                                                  |
 | maxPlayer       | yes      |                                                                                  |
@@ -57,28 +58,8 @@ Please provide the copies for each of these fields:
 | instructionText | no       | Instructional text placed in the game lobby screen before players start game.    |
 
 
-### Example output JSON:
-i.e. Charades
-```
-{
-  key: "charades",
-  type: "native",
-  title: "Charades",
-  imageSource: 'https://storage.googleapis.com/z1-rumble.appspot.com/server-assets/Catalog/charades.png',
-  thumbnailImageSource: 'https://storage.googleapis.com/z1-rumble.appspot.com/server-assets/Catalog/charades-thumbnail.png',
-  shareText: 'Come play Charades with me on Gameroom!',
-  subtitle: "Sing, dance, act or describe clues to help guess the word!",
-  shorterSubtitle: "Sing, dance, act and describe clues with friends!",
-  orientation: "portrait",
-  minPlayer: 2,
-  maxPlayer: 8,
-  lobbyBackground: "https://storage.googleapis.com/z1-rumble.appspot.com/server-assets/Games/charades/background.png",
-  lobbyLogo: "https://storage.googleapis.com/z1-rumble.appspot.com/server-assets/Games/charades/logo.png",
-  instructionText: 'Pick a category, guess the word with help from your friends'
-}
-```
-### Game Catalog:
+### Game Catalog Example:
 ![alt text](https://github.com/500LABS/Gameroom-SDK/blob/master/Deeplink-SDK/gamecatalog.PNG "catalog")
 
-### Game Lobby:
+### Game Lobby Example:
 ![alt text](https://github.com/500LABS/Gameroom-SDK/blob/master/Deeplink-SDK/gamelobby.PNG "lobby")
