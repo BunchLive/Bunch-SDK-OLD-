@@ -78,7 +78,7 @@ i.e. Charades
 }
 ```
 ### Game Catalog:
-![alt text](./gamecatalog.png "catalog")
+![alt text](https://github.com/500LABS/Gameroom-SDK/blob/master/Deeplink-SDK/gamecatalog.PNG "catalog")
 
 ### Game Lobby:
-![alt text](./gamelobby.png "lobby")
+![alt text](https://github.com/500LABS/Gameroom-SDK/blob/master/Deeplink-SDK/gamelobby.PNG "lobby")
